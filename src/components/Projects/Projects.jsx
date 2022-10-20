@@ -17,7 +17,7 @@ export const Projects = () => {
         <h2>Artket</h2>
         <img src={artket} alt="artket"></img>
         <a href="https://artket.vercel.app/" target="_blank">
-          Visita el despliegue
+          Visita el despliegue 
         </a>
       </div>
     </div>
