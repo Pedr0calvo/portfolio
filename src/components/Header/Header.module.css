@@ -52,6 +52,8 @@
         display: inline-block;
         width: 60px;
         height: 24px;
+        border: 2px solid black;
+        border-radius: 35px
       }
 
       /* Ocultamos el checkbox html */
