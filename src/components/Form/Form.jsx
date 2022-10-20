@@ -7,7 +7,7 @@ export const Form = () => {
       <div className={style.form}>
         <form
           className={style.formulario}
-          action="https://formsubmit.co/pedro7calvo@gmail.com"
+          action="https://formsubmit.co/f2a228c18d553c63075afd13317fe5de"
           method="POST"
         >
           <label for="nombre">Nombre </label>
