@@ -7,11 +7,12 @@ export const Header = () => {
     <header className={style.header}>
       <div className={style.container}>
         <div className={style.logo}>
-          <img src={logo} alt="logo"></img>
+          <a>
+            <img src={logo} alt="logo"></img>
+          </a>
         </div>
         <div className={style.lista}>
           <ul>
-            <a>Home</a>
             <a>Me</a>
             <a>Skills</a>
             <a>Projects</a>
