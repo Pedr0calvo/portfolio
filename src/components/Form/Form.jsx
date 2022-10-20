@@ -11,9 +11,9 @@ export const Form = () => {
           method="POST"
         >
           <label for="nombre">Nombre </label>
-          <input placeholder="Nombre" class="input" type="text" name="name" />
+          <input placeholder="Nombre" class="input" type="text" name="name" className={style.input}/>
           <label for="email">Email </label>
-          <input placeholder="Email" class="input" type="text" name="email" />
+          <input placeholder="Email" class="input" type="text" name="email" className={style.input}/>
           <label for="mensaje">Mensaje </label>
           <textarea
             className={style.mensaje}
@@ -25,7 +25,7 @@ export const Form = () => {
             name="_next"
             value="https://pedrocalvo.vercel.app/"
           />
-          <input class="button" type="submit" value="Enviar" />
+          <input class="button" className={style.submit} type="submit" value="Enviar" />
         </form>
       </div>
     </div>

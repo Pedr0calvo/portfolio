@@ -9,12 +9,16 @@ export const Projects = () => {
       <div className={style.card}>
         <p>Videogames</p>
         <img src={videogames} alt="videogames"></img>
-        <a href="https://front-videogames-dun.vercel.app/" target='_blank'>Deploy</a>
+        <a href="https://front-videogames-dun.vercel.app/" target="_blank">
+          Visita el despliegue
+        </a>
       </div>
       <div className={style.card}>
         <p>Artket</p>
         <img src={artket} alt="artket"></img>
-        <a href="https://artket.vercel.app/" target='_blank'>Deploy</a>
+        <a href="https://artket.vercel.app/" target="_blank">
+          Visita el despliegue
+        </a>
       </div>
     </div>
   );

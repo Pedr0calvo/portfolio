@@ -15,6 +15,7 @@ export const Header = () => {
             <a>Me</a>
             <a>Skills</a>
             <a>Projects</a>
+            <a>Contact</a>
           </ul>
         </div>
         <div className={style.buttons}>
