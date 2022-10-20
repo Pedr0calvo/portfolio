@@ -7,7 +7,8 @@
 
 .card {
   width: 40vw;
-  height: 26vw;
+  height: 29vw;
+  /* min-height: 500px; */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -26,8 +27,8 @@
 .card a {
   outline: none;
   text-decoration: none;
-  padding: 2px 1px 0;
+  padding: 2vw;
+  max-height: 2%;
   color: black;
+  font: 1em;
 }
-
-

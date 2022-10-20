@@ -7,14 +7,14 @@ export const Projects = () => {
   return (
     <div className={style.container} id='projects'>
       <div className={style.card}>
-        <p>Videogames</p>
+        <h2>Videogames</h2>
         <img src={videogames} alt="videogames"></img>
         <a href="https://front-videogames-dun.vercel.app/" target="_blank">
           Visita el despliegue
         </a>
       </div>
       <div className={style.card}>
-        <p>Artket</p>
+        <h2>Artket</h2>
         <img src={artket} alt="artket"></img>
         <a href="https://artket.vercel.app/" target="_blank">
           Visita el despliegue
