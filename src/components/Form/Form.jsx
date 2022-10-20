@@ -20,7 +20,11 @@ export const Form = () => {
             placeholder="Deje un mensaje"
             name="mensaje"
           ></textarea>
-          <input type="hidden" name="_next" value="http://localhost:3000/" />
+          <input
+            type="hidden"
+            name="_next"
+            value="https://pedrocalvo.vercel.app/"
+          />
           <input class="button" type="submit" value="Enviar" />
         </form>
       </div>
