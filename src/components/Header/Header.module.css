@@ -1,0 +1,50 @@
+.header {
+  position: fixed;
+  top: 0px;
+  height: 5rem;
+  background-color: wheat;
+  width: 100%;
+  z-index: 1;
+}
+
+/* .lista {
+    width: 10vw;
+} */
+
+.lista a {
+    font-size: 120%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    margin: 0rem 2rem 0rem 2rem;
+}
+
+.logo {
+  height: 3rem;
+  width: 3rem;
+}
+
+.logo img {
+  margin: auto;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 10px;
+}
+
+.buttons button{
+    margin-left: 4px;
+}
+
+.lista ul {
+    display: flex;
+}
+
+.lista a {
+    list-style: none;
+	margin: 0 25px 0 25px;
+	color: black;
+}

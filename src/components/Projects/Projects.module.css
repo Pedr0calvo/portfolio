@@ -1,0 +1,26 @@
+.container {
+  height: 70vh;
+  display: flex;
+  margin: 20vh 20vh 0vh 20vh;
+}
+
+.card {
+  width: 40vw;
+  height: 25vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: wheat;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+
+.card img {
+  width: 40vw;
+  height: 20vw;
+  /* border-radius: 20px; */
+}
+
+
+

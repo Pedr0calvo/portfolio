@@ -1,0 +1,9 @@
+.container {
+    height: 20vw;
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    width: 80vw;
+}

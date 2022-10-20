@@ -1,0 +1,32 @@
+.footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+.container {
+  height: 8vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: wheat;
+}
+
+.contactame {
+  display: flex;
+}
+
+.github img {
+  width: 1.5rem;
+  margin-left: 2rem;
+}
+
+.linkedIn img {
+  width: 1.5rem;
+  margin-left: 2rem;
+}
+
+.mail img {
+  width: 1.5rem;
+  margin-left: 2rem;
+}
