@@ -4,7 +4,7 @@ import me from "../../assests/7f5f8af9-4921-4968-8c73-06f828f1a339.jpg";
 
 export const Me = () => {
   return (
-    <div className={style.container}>
+    <div className={style.container} id='me'>
       <div className={style.me}>
         <img src={me} alt="me"></img>
       </div>

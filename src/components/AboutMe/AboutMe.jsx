@@ -3,7 +3,7 @@ import style from "./AboutMe.module.css";
 
 export const AboutMe = () => {
   return (
-    <div className={style.container}>
+    <div className={style.container} id='aboutme'>
       <div className={style.text}>
         <p>
           Soy Pedro tengo 23 años y soy Desarrollador Full Stack. Durante la

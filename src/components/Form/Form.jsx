@@ -3,7 +3,7 @@ import style from "./Form.module.css";
 
 export const Form = () => {
   return (
-    <div className={style.container}>
+    <div className={style.container} id='contact'>
       <div className={style.form}>
         <form
           className={style.formulario}

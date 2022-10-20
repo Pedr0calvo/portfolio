@@ -7,16 +7,16 @@ export const Header = () => {
     <header className={style.header}>
       <div className={style.container}>
         <div className={style.logo}>
-          <a>
+          <a class='btnHeader' href="/#me">
             <img src={logo} alt="logo"></img>
           </a>
         </div>
         <div className={style.lista}>
           <ul>
-            <a>Me</a>
-            <a>Skills</a>
-            <a>Projects</a>
-            <a>Contact</a>
+            <a class='btnHeader' href="/#aboutme">Me</a>
+            <a class='btnHeader' href="/#skills">Skills</a>
+            <a class='btnHeader' href='/#projects'>Projects</a>
+            <a class='btnHeader' href="/#contact">Contact</a>
           </ul>
         </div>
         <div className={style.buttons}>

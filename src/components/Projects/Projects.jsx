@@ -5,7 +5,7 @@ import videogames from "../../assests/Videogames App — Mozilla Firefox 20_10_2
 
 export const Projects = () => {
   return (
-    <div className={style.container}>
+    <div className={style.container} id='projects'>
       <div className={style.card}>
         <p>Videogames</p>
         <img src={videogames} alt="videogames"></img>

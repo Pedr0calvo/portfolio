@@ -9,7 +9,7 @@ import html from "../../assests/html-5.png";
 
 export const Skills = () => {
   return (
-    <div className={style.container}>
+    <div className={style.container} id='skills'>
         {/* <h1>Skills</h1> */}
       <div className={style.cuadricula}>
         <div className={style.icono}>
