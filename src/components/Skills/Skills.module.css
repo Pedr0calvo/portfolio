@@ -32,13 +32,11 @@
   padding-bottom: 20px;
 }
 
-.icono:hover {
-}
-
 .description {
   width: 9.5vw;
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: -1;
+  color: var(--secondary-color);
 }

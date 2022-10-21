@@ -2,14 +2,10 @@
   position: fixed;
   top: 0px;
   height: 5rem;
-  background-color: wheat;
+  background-color: var(--third-color);
   width: 100%;
   z-index: 1;
 }
-
-/* .lista {
-    width: 10vw;
-} */
 
 .container {
   display: flex;
@@ -35,6 +31,12 @@
   margin-left: 40px;
 }
 
+.buttons img {
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+}
+
 .lista ul {
   display: flex;
 }
@@ -42,68 +44,68 @@
 .lista a {
   font-size: 120%;
   margin: 0 25px 0 25px;
-  color: black;
+  color: var(--secondary-color);
   text-decoration: none;
 }
 
-    /* Formateamos el label que servirá de contenedor */
-    .switch {
-        position: relative;
-        display: inline-block;
-        width: 60px;
-        height: 24px;
-        border: 2px solid black;
-        border-radius: 35px
-      }
+/* Formateamos el label que servirá de contenedor */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 24px;
+  border: 2px solid black;
+  border-radius: 35px;
+}
 
-      /* Ocultamos el checkbox html */
-      .switch input {
-        display:none;
-      }
-       
-      /* Formateamos la caja del interruptor sobre la cual se deslizará la perilla de control o slider */
-      .slider {
-        position: absolute;
-        cursor: pointer;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: #ccc;
-        -webkit-transition: .4s;
-        transition: .4s;
-      }
-       
-      /* Pintamos la perilla de control o slider usando el selector before */
-      .slider:before {
-        position: absolute;
-        content: "";
-        height: 15px;
-        width: 26px;
-        left: 4px;
-        bottom: 4px;
-        background-color: white;
-        -webkit-transition: .4s;
-        transition: .4s;
-      }
-       
-      /* Cambiamos el color de fondo cuando el checkbox esta activado */
-      .switch input:checked + .slider {
-        background-color: black;
-      }
-       
-      /* Deslizamos el slider a la derecha cuando el checkbox esta activado */ 
-      .switch input:checked + .slider:before {
-        -webkit-transform: translateX(26px);
-        -ms-transform: translateX(26px);
-        transform: translateX(26px);
-      }
-       
-      /* Aplicamos efecto de bordes redondeados en slider y en el fondo del slider */
-      .slider {
-        border-radius: 34px;
-      }
-       
-      .slider:before {
-        border-radius: 50%;
-      }
+/* Ocultamos el checkbox html */
+.switch input {
+  display: none;
+}
+
+/* Formateamos la caja del interruptor sobre la cual se deslizará la perilla de control o slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+/* Pintamos la perilla de control o slider usando el selector before */
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  /* background-color: white; */
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+/* Cambiamos el color de fondo cuando el checkbox esta activado */
+.switch input:checked + .slider {
+  background-color: black;
+}
+
+/* Deslizamos el slider a la derecha cuando el checkbox esta activado */
+.switch input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Aplicamos efecto de bordes redondeados en slider y en el fondo del slider */
+.slider {
+  border-radius: 34px;
+}
+
+.slider:before {
+  border-radius: 50%;
+}

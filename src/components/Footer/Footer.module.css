@@ -9,7 +9,8 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: wheat;
+  background-color: var(--third-color);
+  color: var(--secondary-color);
 }
 
 .contactame {

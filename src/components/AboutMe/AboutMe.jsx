@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
+import ThemeContext from "../../context/ThemeContext";
 import style from "./AboutMe.module.css";
 
 export const AboutMe = () => {
+  const { theme } = useContext(ThemeContext);
   return (
-    <div className={style.container} id='aboutme'>
+    <div className={`${style.container} ${theme}`} id="aboutme">
       <div className={style.text}>
         <p>
           Soy Pedro tengo 23 años y soy Desarrollador Full Stack. Durante la

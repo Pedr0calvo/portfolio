@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useContext } from "react";
 import style from "./Header.module.css";
 import logo from "../../assests/pedro calvo.png";
+import sun from "../../assests/sun.png";
+import moon from "../../assests/moon.png";
+import ThemeContext from "../../context/ThemeContext";
 
 export const Header = () => {
+  const { theme, handleTheme } = useContext(ThemeContext);
+
   return (
-    <header className={style.header}>
+    <header className={`${style.header} ${theme}`}>
       <div className={style.container}>
         <div className={style.logo}>
           <a class="btnHeader" href="/#me">
@@ -28,14 +33,15 @@ export const Header = () => {
           </ul>
         </div>
         <div className={style.buttons}>
-          <label className={style.switch}>
+          {/* <label className={style.switch}>
             <input type="checkbox" />
             <div className={style.slider}></div>
-          </label>
-          <label className={style.switch}>
-            <input type="checkbox" />
-            <div className={style.slider}></div>
-          </label>
+          </label> */}
+          {theme === true ? (
+            <img src={sun} name="theme" id="icon" onClick={handleTheme}></img>
+          ) : (
+            <img src={moon} name="theme" id="icon" onClick={handleTheme}></img>
+          )}
         </div>
       </div>
     </header>

@@ -3,8 +3,13 @@
     display: flex;
     justify-content: center;
     padding-top: 8vw;
+    background-color: var(--primary-color);
 }
 
 .text {
     width: 80vw;
+}
+
+.text {
+    color: var(--secondary-color);
 }

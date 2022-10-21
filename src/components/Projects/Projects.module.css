@@ -3,6 +3,7 @@
   display: flex;
   padding-top: 10vw;
   margin: 5vh 20vh 0vh 20vh;
+  background-color: var(--primary-color);
 }
 
 .card {
@@ -13,7 +14,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background-color: wheat;
+  background-color: var(--third-color);
   margin-left: 10px;
   border-radius: 20px;
 }
@@ -29,6 +30,6 @@
   text-decoration: none;
   padding: 2vw;
   max-height: 2%;
-  color: black;
+  color: var(--secondary-color);
   font: 1em;
 }
