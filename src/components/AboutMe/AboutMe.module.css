@@ -1,15 +1,22 @@
 .container {
-    height: 18vw;
+    height: fit-content;
     display: flex;
     justify-content: center;
-    padding-top: 8vw;
+    padding-top: 7vw;
     background-color: var(--primary-color);
 }
 
 .text {
-    width: 80vw;
+    width: 70vw;
+    height: fit-content;
+    display: grid;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: var(--third-color);
+    color: var(--secondary-color);
 }
 
-.text {
-    color: var(--secondary-color);
+.text p {
+    width: 60vw;
+
 }
