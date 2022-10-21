@@ -39,10 +39,10 @@ export const Header = () => {
             <option value="en">English</option>
             <option value="es">Español</option>
           </select>
-          {theme === false ? (
-            <img src={sun} name="theme" id="icon" onClick={handleTheme}></img>
-          ) : (
+          {theme ? (
             <img src={moon} name="theme" id="icon" onClick={handleTheme}></img>
+            ) : (
+            <img src={sun} name="theme" id="icon" onClick={handleTheme}></img>
           )}
         </div>
       </div>
