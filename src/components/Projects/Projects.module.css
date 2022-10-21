@@ -75,5 +75,19 @@
 
   .card {
     height: 100%;
+    margin-bottom: 10%;
   }
+}
+
+@media (max-width: 500px) {
+  .container {
+    display: grid;
+    flex-direction: column;
+    height: 110vw;
+  }
+
+  .card {
+    height: 90%;
+  }
+  
 }

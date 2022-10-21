@@ -45,3 +45,31 @@
   }
 
 }
+
+@media (max-width: 500px) {
+  
+  .container {
+    height: 7vw;
+    font-size: x-small;
+  }
+
+  .contact {
+    display: none;
+  }
+
+  .github img {
+    width: 1rem;
+    margin-left: 2rem;
+  }
+  
+  .linkedIn img {
+    width: 1rem;
+    margin-left: 2rem;
+  }
+  
+  .mail img {
+    width: 1rem;
+    margin-left: 2rem;
+  }
+
+}

@@ -89,4 +89,27 @@
     height: 100vw;
   }
 
+  .submit:hover {
+    transform: translateY(-2px);
+  }
+
+}
+
+@media (max-width: 500px) {
+  .container {
+    height: 110vw;
+  }
+
+  .input {
+    width: 80%;
+  }
+
+  .mensaje {
+    width: 80%;
+  }
+
+  .submit:hover {
+    transform: translateY(-2px);
+  }
+
 }

@@ -15,7 +15,7 @@ export const Footer = () => {
         <div>{texts.footerCreate}</div>
         <br></br>
         <div className={style.contactame}>
-          {texts.footerContact}
+          <div className={style.contact}>{texts.footerContact}</div>
           <div className={style.github}>
             <a href="https://github.com/Pedr0calvo" target="_blank">
               <img src={github} alt="github"></img>
