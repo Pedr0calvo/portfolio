@@ -25,11 +25,41 @@
   /* border-radius: 20px; */
 }
 
-.card a {
+/* .card a {
   outline: none;
   text-decoration: none;
   padding: 2vw;
   max-height: 2%;
   color: var(--secondary-color);
   font: 1em;
+} */
+
+.card a {
+  /* 
+  letter-spacing: 2.5px;
+  font-size: 8px;
+  outline: none;
+  */
+  width: fit-content;
+  height: fit-content;
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  padding: 10px 12px;
+  font-size: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 30px;
+  font-weight: 600;
+  transition: all 0.3s linear;
+  border: 2px solid var(--color-btn-bg);
+}
+
+.card a:hover {
+  box-shadow: 0px 5px 5px var(--secondary-color);
+  transform: translateY(-2px);
+}
+
+.card a:active {
+  transform: translateY(1px);
 }
