@@ -79,3 +79,26 @@ h2 {
     width:fit-content
   }
 }
+
+@media (max-width: 500px) {
+
+  .container {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .text {
+    margin: 0%;
+    display: grid;
+    width: 70%;
+  }
+
+  .text h1 {
+    font-size: 6vw;
+  }
+
+  .text h2 {
+    font-size: 4vw;
+  }
+
+}
