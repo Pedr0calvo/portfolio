@@ -83,5 +83,8 @@
   .lista {
     display: none;
   }
- 
+
+  .logo img {
+    height: 90%;
+  }
 }
