@@ -11,7 +11,7 @@ const translations = {
     headerContacto: "Contact",
     meSoy: "Hi, Im Pedro Calvo",
     meSoy1: "Full-Stack developer",
-    meScroll: "Scroll to know my portfolio",
+    meScroll: "Scroll to see my portfolio",
     meCV:'Download my resume',
     projectsName: "Videogames",
     projectsName1: "Artket",
