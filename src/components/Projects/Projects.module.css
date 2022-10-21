@@ -63,3 +63,17 @@
 .card a:active {
   transform: translateY(1px);
 }
+
+@media (max-width: 800px) {
+  .container {
+    width: 100%;
+    height: fit-content;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    display: flex;
+  }
+
+  .card {
+    height: 100%;
+  }
+}

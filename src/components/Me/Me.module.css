@@ -65,3 +65,17 @@ h2 {
 .cv:active {
   transform: translateY(1px);
 }
+
+
+@media (max-width: 800px) {
+  .container {
+    width: 100%;
+    height: fit-content;
+    padding-top: 10%;
+    display: flex;
+  }
+
+  .text {
+    width:fit-content
+  }
+}

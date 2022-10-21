@@ -69,3 +69,24 @@
 .submit:active {
   transform: translateY(1px);
 }
+
+@media (max-width: 800px) {
+  .container {
+    width: 100%;
+    height: 60vw;
+  }
+
+  .form {
+    padding-top: 8%;
+    height: 80%;
+  }
+
+  .formulario {
+    height: 90%;
+  }
+
+  .mensaje {
+    height: 100vw;
+  }
+
+}

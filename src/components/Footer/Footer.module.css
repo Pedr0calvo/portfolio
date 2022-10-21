@@ -31,3 +31,17 @@
   width: 1.5rem;
   margin-left: 2rem;
 }
+
+@media (max-width: 800px) {
+
+  .footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+  }
+  
+  .container {
+    height: 7vw;
+  }
+
+}
