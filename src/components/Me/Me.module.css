@@ -85,6 +85,7 @@ h2 {
   .container {
     width: 100%;
     height: fit-content;
+    padding-top: 15%;
   }
 
   .text {
@@ -93,12 +94,23 @@ h2 {
     width: 70%;
   }
 
+  .me img {
+    margin-left: 7%;
+  }
+
   .text h1 {
     font-size: 6vw;
+    margin-left: 8%;
   }
 
   .text h2 {
     font-size: 4vw;
+    margin-left: 8%;
+
+  }
+
+  .cv {
+    margin-left: 15%;
   }
 
 }
