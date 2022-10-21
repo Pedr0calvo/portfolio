@@ -4,9 +4,11 @@ import logo from "../../assests/pedro calvo.png";
 import sun from "../../assests/sun.png";
 import moon from "../../assests/moon.png";
 import ThemeContext from "../../context/ThemeContext";
+import LanguageContext from "../../context/LanguageContext";
 
 export const Header = () => {
   const { theme, handleTheme } = useContext(ThemeContext);
+  const { texts, handleLanguage } = useContext(LanguageContext);
 
   return (
     <header className={`${style.header} ${theme}`}>
@@ -19,24 +21,24 @@ export const Header = () => {
         <div className={style.lista}>
           <ul>
             <a class="btnHeader" href="/#aboutme">
-              Me
+              {texts.headerTitle}
             </a>
             <a class="btnHeader" href="/#skills">
-              Skills
+              {texts.headerAptitudes}
             </a>
             <a class="btnHeader" href="/#projects">
-              Projects
+              {texts.headerProyectos}
             </a>
             <a class="btnHeader" href="/#contact">
-              Contact
+              {texts.headerContacto}
             </a>
           </ul>
         </div>
         <div className={style.buttons}>
-          {/* <label className={style.switch}>
-            <input type="checkbox" />
-            <div className={style.slider}></div>
-          </label> */}
+          <select name="language" onChange={handleLanguage}>
+            <option value="en">English</option>
+            <option value="es">Español</option>
+          </select>
           {theme === true ? (
             <img src={sun} name="theme" id="icon" onClick={handleTheme}></img>
           ) : (

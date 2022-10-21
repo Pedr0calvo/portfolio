@@ -27,6 +27,11 @@
   border-radius: 10px;
 }
 
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
 .buttons label {
   margin-left: 40px;
 }
@@ -35,6 +40,20 @@
   height: 2rem;
   width: 2rem;
   cursor: pointer;
+  margin-left: 1em;
+}
+
+.buttons select {
+  width: 6em;
+  height: 2em;
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  border: 2px solid black;
+  color: var(--secondary-color);
+}
+
+.buttons option {
+  color: var(--secondary-color);
 }
 
 .lista ul {

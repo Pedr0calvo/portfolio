@@ -9,22 +9,23 @@ import { Header } from "./components/Header/Header";
 import { Form } from "./components/Form/Form";
 import { useState } from "react";
 import { ThemeProvider } from "./context/ThemeContext";
+import { LanguageProvider } from "./context/LanguageContext";
 
-const initialTheme = "dark";
 
 function App() {
-  const [theme, setTheme] = useState(initialTheme);
 
   return (
     <BrowserRouter>
       <ThemeProvider>
-        <Header />
-        <Me />
-        <Skills />
-        <Projects />
-        <AboutMe />
-        <Form />
-        <Footer />
+        <LanguageProvider>
+          <Header />
+          <Me />
+          <Skills />
+          <Projects />
+          <AboutMe />
+          <Form />
+          <Footer />
+        </LanguageProvider>
       </ThemeProvider>
     </BrowserRouter>
   );

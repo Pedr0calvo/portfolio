@@ -1,9 +1,11 @@
 import React, { useContext } from "react";
+import LanguageContext from "../../context/LanguageContext";
 import ThemeContext from "../../context/ThemeContext";
 import style from "./Form.module.css";
 
 export const Form = () => {
   const { theme, handleTheme } = useContext(ThemeContext);
+  const { texts } = useContext(LanguageContext);
   return (
     <div className={`${style.container} ${theme}`} id="contact">
       <div className={style.form}>
@@ -12,26 +14,26 @@ export const Form = () => {
           action="https://formsubmit.co/f2a228c18d553c63075afd13317fe5de"
           method="POST"
         >
-          <label for="nombre">Nombre </label>
+          <label for="nombre">{texts.formName} </label>
           <input
-            placeholder="Nombre"
+            placeholder={texts.formName}
             class="input"
             type="text"
             name="name"
             className={style.input}
           />
-          <label for="email">Email </label>
+          <label for="email">{texts.formEmail} </label>
           <input
-            placeholder="Email"
+            placeholder={texts.formEmail}
             class="input"
             type="text"
             name="email"
             className={style.input}
           />
-          <label for="mensaje">Mensaje </label>
+          <label for="mensaje">{texts.formMsg} </label>
           <textarea
             className={style.mensaje}
-            placeholder="Deje un mensaje"
+            placeholder={texts.formLeavemsg}
             name="mensaje"
           ></textarea>
           <input
@@ -43,7 +45,7 @@ export const Form = () => {
             class="button"
             className={style.submit}
             type="submit"
-            value="Enviar"
+            value={texts.formSend}
           />
         </form>
       </div>
