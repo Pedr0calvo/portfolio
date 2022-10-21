@@ -1,12 +1,14 @@
-import React from "react";
+import React, { useContext } from "react";
 import style from "./Footer.module.css";
 import github from "../../assests/signo-de-github.png";
 import linkedIn from "../../assests/linkedin(1).png";
 import mail from "../../assests/gmail.png";
+import ThemeContext from "../../context/ThemeContext";
 
 export const Footer = () => {
+  const { theme } = useContext(ThemeContext);
   return (
-    <div className={style.footer}>
+    <div className={`${theme} ${style.footer}`}>
       <div className={style.container}>
         <div>Creado por Pedro Calvo</div>
         <br></br>

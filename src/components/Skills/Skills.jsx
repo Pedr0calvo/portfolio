@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import style from "./Skills.module.css";
 import css from "../../assests/css-3.png";
 import js from "../../assests/js.png";
@@ -6,10 +6,13 @@ import react from "../../assests/physics.png";
 import postgrs from "../../assests/postgre.png";
 import node from "../../assests/nodo-js.png";
 import html from "../../assests/html-5.png";
+import ThemeContext from "../../context/ThemeContext";
 
 export const Skills = () => {
+
+    const {theme} = useContext(ThemeContext)
   return (
-    <div className={style.container} id='skills'>
+    <div className={`${style.container} ${theme}`} id='skills'>
         {/* <h1>Skills</h1> */}
       <div className={style.cuadricula}>
         <div className={style.icono}>

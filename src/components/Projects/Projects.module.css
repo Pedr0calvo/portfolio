@@ -2,14 +2,13 @@
   height: 70vh;
   display: flex;
   padding-top: 10vw;
-  margin: 5vh 20vh 0vh 20vh;
   background-color: var(--primary-color);
+  width: 100%;
 }
 
 .card {
   width: 40vw;
   height: 29vw;
-  /* min-height: 500px; */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
