@@ -10,20 +10,20 @@ export const Projects = () => {
   const { texts } = useContext(LanguageContext);
   return (
     <div className={`${theme} ${style.container}`} id="projects">
-      <div className={style.card}>
-        <h2>{texts.projectsName}</h2>
-        <img src={videogames} alt="videogames"></img>
-        <a href="https://front-videogames-dun.vercel.app/" target="_blank">
+      <a href="https://front-videogames-dun.vercel.app/" target="_blank">
+        <div className={style.card}>
+          <h2>{texts.projectsName}</h2>
+          <img src={videogames} alt="videogames"></img>
           {texts.visitDeploy}
-        </a>
-      </div>
-      <div className={style.card}>
-        <h2>{texts.projectsName1}</h2>
-        <img src={artket} alt="artket"></img>
-        <a href="https://artket.vercel.app/" target="_blank">
+        </div>
+      </a>
+      <a href="https://artket.vercel.app/" target="_blank">
+        <div className={style.card}>
+          <h2>{texts.projectsName1}</h2>
+          <img src={artket} alt="artket"></img>
           {texts.visitDeploy}
-        </a>
-      </div>
+        </div>
+      </a>
     </div>
   );
 };
