@@ -12,12 +12,13 @@
   height: 29vw;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   background-color: var(--third-color);
   margin-left: 10px;
   border-radius: 20px;
   text-decoration: none;
+
 }
 
 .card img {
@@ -35,12 +36,19 @@
   font: 1em;
 } */
 
+.card h2 {
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
 .card a {
   /* 
   letter-spacing: 2.5px;
   font-size: 8px;
-  outline: none;
   */
+  outline: none;
+  text-decoration: none;
   width: fit-content;
   height: fit-content;
   text-decoration: none;
