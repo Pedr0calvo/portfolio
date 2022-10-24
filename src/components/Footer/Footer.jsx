@@ -26,11 +26,6 @@ export const Footer = () => {
               <img src={linkedIn} alt="linkedIn"></img>
             </a>
           </div>
-          <div className={style.mail}>
-            <a>
-              <img src={mail} alt="mail"></img>
-            </a>
-          </div>
         </div>
       </div>
     </div>
