@@ -10,8 +10,6 @@ export const Header = () => {
   const { theme, handleTheme } = useContext(ThemeContext);
   const { texts, handleLanguage } = useContext(LanguageContext);
 
-  
-
   return (
     <header className={`${style.header} ${theme}`}>
       <div className={style.container}>
@@ -41,9 +39,9 @@ export const Header = () => {
             <option value="en">English</option>
             <option value="es">Español</option>
           </select>
-          {theme === true ? (
+          {theme ? (
             <img src={moon} name="theme" id="icon" onClick={handleTheme}></img>
-            ) : (
+          ) : (
             <img src={sun} name="theme" id="icon" onClick={handleTheme}></img>
           )}
         </div>
