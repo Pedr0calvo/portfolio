@@ -18,9 +18,9 @@ const translations = {
     visitDeploy: "Go to deploy",
     parrafo1: "My name is Pedro Calvo am twenty-three years old.",
     parrafo2:
-      "Im studying agronomics in college and love it as much as software development because I become a full-stack developer in Henry. During the Bootcamp, I created a SPA page and e-commerce about artworks which you can visit in my profile of LinkedIn.",
+      "I'm a full-stack developer with a passion for technology and software development.",
     parrafo3:
-      "I study day by day to do my best. Im looking for my first experience growing up as a developer.",
+      "I have experience working with the PERN stack and keep adding technologies to my stack like Docker, MongoDB and AWS cloud. I’ve worked on different projects using agile methodologies like scrum. I consider myself adaptable, communicative and a leader",
     formName: "Name",
     formEmail: "Email",
     formMsg: "Message",
